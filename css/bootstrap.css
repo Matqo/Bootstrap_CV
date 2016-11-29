@@ -39,7 +39,7 @@
 .parallax-main {
   width: auto;
   background-image: url('../img/tatry.png');
-  height: 100%;
+  height: auto;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -49,7 +49,7 @@
 .parallax-secondary {
   width: auto;
   background-image: url('../img/pleso.jpg');
-  height: 100%;
+  height: auto;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
