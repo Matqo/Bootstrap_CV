@@ -37,9 +37,9 @@
 }
 
 .parallax-main {
-  width: auto;
+  //width: auto;
   background-image: url('../img/tatry.png');
-  height: auto;
+  height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -47,9 +47,9 @@
 }
 
 .parallax-secondary {
-  width: auto;
+  //width: auto;
   background-image: url('../img/pleso.jpg');
-  height: auto;
+  height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
