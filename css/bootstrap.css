@@ -37,6 +37,7 @@
 }
 
 .parallax-main {
+max-width: 100%;
   //width: auto;
   background-image: url('../img/tatry.png');
   height: 100%;
@@ -47,6 +48,7 @@
 }
 
 .parallax-secondary {
+	max-width: 100%;
   //width: auto;
   background-image: url('../img/pleso.jpg');
   height: 100%;
