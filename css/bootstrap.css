@@ -42,7 +42,7 @@
 
   /* Full height */
 height: 100%;
-
+opacity: 0.2;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -1667,7 +1667,7 @@ pre code {
   }
 }
 .container-fluid {
-  background:rgba(0,0,0,0.2);
+  background:rgba(0,0,0,0);
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
