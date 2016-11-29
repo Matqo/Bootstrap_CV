@@ -36,14 +36,19 @@
   font-weight:400;
 }
 
-.parallax {
-  /* The image used */
+.parallax-main {
+  width: auto;
   background-image: url('../img/tatry.png');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  /* Full height */
-height: 100%;
-  background:rgba(0,0,0,0.2);
-  /* Create the parallax scrolling effect */
+.parallax-secondary {
+  background-image: url('../img/pleso.jpg');
+  height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -1667,11 +1672,12 @@ pre code {
   }
 }
 .container-fluid {
-  background:rgba(0,0,0,0);
+  background:rgba(0,0,0,0.5);
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  height:100%;
 }
 .row {
   margin-right: -15px;
