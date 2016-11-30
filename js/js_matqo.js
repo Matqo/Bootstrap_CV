@@ -1,13 +1,16 @@
 /**
  * Created by Matqo on 30/11/2016.
  */
-$(document).ready(function() {
-    $(".rotate").textrotator({
+
+$(document).ready(function(){
+    $(".secondary-Header .rotate").textrotator({
         animation: "dissolve",
-        separator: "|",
         speed: 3000
     });
-}
+
+});
+
+
 
 /*function switch1() {
 
