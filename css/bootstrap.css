@@ -5,68 +5,13 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
-@font-face {
-  font-family: MyriadProSemibold;
-  src: url('Fonts/myriad-set-pro_semibold.ttf');
-  font-weight:400;
-}
-@font-face {
-  font-family: MyriadProBold;
-  src: url('Fonts/myriad-set-pro_bold.ttf');
-  font-weight:400;
-}
-@font-face {
-  font-family: MyriadProMedium;
-  src: url('Fonts/myriad-set-pro_medium.ttf');
-  font-weight:400;
-}
-@font-face {
-  font-family: MyriadProText;
-  src: url('Fonts/myriad-set-pro_text.ttf');
-  font-weight:400;
-}
-@font-face {
-  font-family: MyriadProThin;
-  src: url('Fonts/myriad-set-pro_thin.ttf');
-  font-weight:400;
-}
-@font-face {
-  font-family: MyriadProUltralight;
-  src: url('Fonts/myriad-set-pro_ultralight.ttf');
-  font-weight:400;
-}
-
-.parallax-main {
-max-width: 100%;
-  //width: auto;
-  background-image: url('../img/tatry.png');
-  height: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.parallax-secondary {
-	max-width: 100%;
-  //width: auto;
-  background-image: url('../img/pleso.jpg');
-  height: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 html {
-  background:rgba(0,0,0,0.2);
-  height: 100%;
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 body {
-  height: 100%;
   margin: 0;
 }
 article,
@@ -1321,24 +1266,11 @@ h6 .small,
 }
 h1,
 .h1 {
-//font-family: MyriadProSemibold;
-//font-family: MyriadProBold;
-//font-family: MyriadProMedium;
-//font-family: MyriadProText;
-//font-family: MyriadProThin;
-font-family: MyriadProUltralight;
-  color: white;
-   font-weight: normal;
-   line-height: 100px;
-   font-size: 80px;
- }
+  font-size: 36px;
+}
 h2,
 .h2 {
-  font-family: MyriadProThin;
-  color: white;
-	font-weight: bold;
-  line-height: 26px;
-  font-size: 35px;
+  font-size: 30px;
 }
 h3,
 .h3 {
@@ -1356,7 +1288,6 @@ h6,
 .h6 {
   font-size: 12px;
 }
-
 p {
   margin: 0 0 10px;
 }
@@ -1653,7 +1584,6 @@ pre code {
   overflow-y: scroll;
 }
 .container {
-
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -1675,12 +1605,10 @@ pre code {
   }
 }
 .container-fluid {
-  background:rgba(0,0,0,0.5);
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  height:100%;
 }
 .row {
   margin-right: -15px;
