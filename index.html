@@ -5,15 +5,31 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/js_matqo.js"></script>
+  <!--<script src="js/jquery-3.1.1.js"></script>-->
+  <script type="text/javascript" src="js/jquery.simple-text-rotator.js"></script>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet secondary" href="css/css_matqo.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet rotate" href="css/simpletextrotator.css">
+  <script>
+    $(document).ready(function(){
+      $(".secondary-Header .rotate").textrotator({
+        animation: "dissolve",
+        speed: 3000
+      });
+
+    });
+
+  </script>
 </head>
 <body>
 <div class = container>
 <div class ="main-Header">Martin Futas</div>
-  <div class ="secondary-Header">Software Developer</div>
+  <div class ="secondary-Header" id="sH1"><span class="rotate">Web Developer, Software Engineer, System Analyst</span></div>
+
 </div>
 </body>
 </html>
