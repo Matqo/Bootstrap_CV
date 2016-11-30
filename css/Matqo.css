@@ -1,0 +1,92 @@
+/*!
+ * Custom .css for Responsive CV
+ * Created by Martin Futas
+ * To be hosted @ https://matqo.github.io/
+ */
+ 
+@font-face {
+  font-family: MyriadProSemibold;
+  src: url('Fonts/myriad-set-pro_semibold.ttf');
+  font-weight:400;
+}
+@font-face {
+  font-family: MyriadProBold;
+  src: url('Fonts/myriad-set-pro_bold.ttf');
+  font-weight:400;
+}
+@font-face {
+  font-family: MyriadProMedium;
+  src: url('Fonts/myriad-set-pro_medium.ttf');
+  font-weight:400;
+}
+@font-face {
+  font-family: MyriadProText;
+  src: url('Fonts/myriad-set-pro_text.ttf');
+  font-weight:400;
+}
+@font-face {
+  font-family: MyriadProThin;
+  src: url('Fonts/myriad-set-pro_thin.ttf');
+  font-weight:400;
+}
+@font-face {
+  font-family: MyriadProUltralight;
+  src: url('Fonts/myriad-set-pro_ultralight.ttf');
+  font-weight:400;
+}
+
+/*Parallax height must be 100%*/
+html{
+  height: 100%;
+}
+
+body{
+  background: url('../img/tatry.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color:#fff;
+  background-color:#333;
+  height: 100%;
+}
+
+.parallax-main {
+max-width: 100%;
+  //width: auto;
+  background-image: url('../img/tatry.png');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-secondary {
+	max-width: 100%;
+  //width: auto;
+  background-image: url('../img/pleso.jpg');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.main-Header{
+  font-family: MyriadProUltralight;
+  color: white;
+  font-weight: normal;
+  line-height: 100px;
+  font-size: 80px;
+}
+
+
+.secondary-Header{
+  font-family: MyriadProThin;
+  color: white;
+  font-weight: bold;
+  line-height: 26px;
+  font-size: 35px;
+}
