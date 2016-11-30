@@ -98,6 +98,9 @@ max-width: 100%;
   .main-Header{
     font-size: 80px;
   }
+  .secondary-Header{
+    font-size: 40px;
+  }
 }
 @media all and (max-width: 1000px) { /* screen size until 1000px */
   body {
@@ -106,12 +109,18 @@ max-width: 100%;
   .main-Header{
     font-size: 50px;
   }
+  .secondary-Header{
+    font-size: 25px;
+  }
 }
 @media all and (max-width: 500px) { /* screen size until 500px */
   body {
     font-size: 0.8em; /* 0.8x default size */
   }
   .main-Header{
-    font-size: 30px;
+    font-size: 40px;
+  }
+  .secondary-Header{
+    font-size: 20px;
   }
 }
