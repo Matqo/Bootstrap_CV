@@ -53,7 +53,7 @@ body{
 }
 
 .parallax-main {
-max-width: 100%;
+  max-width: 100%;
   //width: auto;
   background-image: url('../img/tatry.png');
   height: 100%;
