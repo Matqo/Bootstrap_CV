@@ -3,41 +3,43 @@
  * Created by Martin Futas
  * To be hosted @ https://matqo.github.io/
  */
- 
+
 @font-face {
   font-family: MyriadProSemibold;
-  src: url('Fonts/myriad-set-pro_semibold.ttf');
+  src: url('../fonts/myriad-set-pro_semibold.ttf');
   font-weight:400;
 }
 @font-face {
   font-family: MyriadProBold;
-  src: url('Fonts/myriad-set-pro_bold.ttf');
+  src: url('../fonts/myriad-set-pro_bold.ttf');
   font-weight:400;
 }
 @font-face {
   font-family: MyriadProMedium;
-  src: url('Fonts/myriad-set-pro_medium.ttf');
+  src: url('../fonts/myriad-set-pro_medium.ttf');
   font-weight:400;
 }
 @font-face {
   font-family: MyriadProText;
-  src: url('Fonts/myriad-set-pro_text.ttf');
+  src: url('../fonts/myriad-set-pro_text.ttf');
   font-weight:400;
 }
 @font-face {
   font-family: MyriadProThin;
-  src: url('Fonts/myriad-set-pro_thin.ttf');
+  src: url('../fonts/myriad-set-pro_thin.ttf');
   font-weight:400;
 }
 @font-face {
   font-family: MyriadProUltralight;
-  src: url('Fonts/myriad-set-pro_ultralight.ttf');
+  src: url('../fonts/myriad-set-pro_ultralight.ttf');
   font-weight:400;
 }
 
 /*Parallax height must be 100%*/
-html{
+html, body {
   height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 body{
@@ -48,7 +50,6 @@ body{
   background-size: cover;
   color:#fff;
   background-color:#333;
-  height: 100%;
 }
 
 .parallax-main {
