@@ -245,11 +245,9 @@ body{
 .btn-google:hover {
   color: #D3492C;
 }
-}
 .btn-git:hover {
-  color: #D3492C;
-}
+  color: #323131;
 }
 .btn-youtube:hover {
-  color: #D3492C;
+  color: #E62117;
 }
