@@ -295,6 +295,11 @@ body{
   margin: 5px 0;
 }
 
+#footer .copyRight{
+  float:right;
+  margin: 5px 0;
+}
+
 .btn-custom-1 {
   font-family: MyriadProSemibold;
   background: transparent;
