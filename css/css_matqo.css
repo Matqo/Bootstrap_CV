@@ -40,6 +40,18 @@ html, body {
   height: 100%;
   max-width: 100%;
   overflow-x: hidden;
+  /*overflow-y: hidden;*/
+}
+
+.wrapper{
+/*  width: 100%;
+  height: 100%;
+  overflow:auto;*/
+}
+
+::-webkit-scrollbar {
+  width: 0px;  /* remove scrollbar space */
+  background: transparent;  /* optional: just make scrollbar invisible */
 }
 
 body{
@@ -251,4 +263,66 @@ body{
 }
 .btn-youtube:hover {
   color: #E62117;
+}
+
+#contact {
+  font-family: MyriadProSemibold;
+  background: rgba(51, 51, 51, 0.6);
+  color: #FFF;
+}
+
+#contact h1, #contact h2, #contact h3, #contact h4, #contact h5, #contact h6 {
+  color: #FFF;
+}
+
+#contact .form-control {
+  border: 0;
+}
+
+.ajax-response {
+  margin-top: 15px;
+}
+
+#footer {
+  font-family: MyriadProSemibold;
+  background: #333333;
+  padding: 20px 0;
+  color: #FFF;
+}
+
+#footer .copy {
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+.btn-custom-1 {
+  font-family: MyriadProSemibold;
+  background: transparent;
+  border: 1px solid #FFF;
+  padding: 15px 25px;
+}
+
+
+label.error {
+  color: #fff;
+  background: #b94a48;
+  border: solid thin #fff;
+  padding: 3px 5px;
+}
+label.valid {
+  color: #fff;
+  background: #5CB85C;
+  border: solid thin #fff;
+  padding: 3px 5px;
+}
+.help-block ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.help-block ul li{
+  background: #b94a48;
+  color: #fff;
+  padding: 4px 18px;
 }

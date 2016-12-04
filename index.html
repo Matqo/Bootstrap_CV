@@ -9,6 +9,7 @@
   <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/js_matqo.js"></script>
+  <script src="js/jqBootstrapValidation.js"></script>
   <!--<script src="js/jquery-3.1.1.js"></script>-->
   <script type="text/javascript" src="js/jquery.simple-text-rotator.js"></script>
   <link rel="stylesheet" href="css/bootstrap.css">
@@ -18,6 +19,7 @@
   <link rel="stylesheet social" href="css/font-awesome.css">
 </head>
 <body>
+<div class="wrapper">
 <div class="navbar navbar-default navbar-static-top" role="navigation">
 
   <div class="container">
@@ -57,7 +59,7 @@
       <div class ="main-Header">Martin Futas</div>
     </div>
     <div class ="animated bounceInRight">
-      <div class ="secondary-Header" id="sH1"><span class="rotate">Web Developer, Software Engineer, System Analyst</span></div>
+      <div class ="secondary-Header" id="sH1"><span class="rotate">Web Developer, Software Engineer, System Analyst</span></div><br>
     </div>
       <div class ="animated bounceInUp">
         <div class="social-icons">
@@ -72,7 +74,98 @@
       </div>
     </div>
   </div>
+
+
+
+
 </div>
 
+<br>
+<br><br><br><br><br><br><br><br><br><br><br>
+
+<section id="contact" class="section">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 headline wow bounceInLeft">
+        <h2>Contact Me!</h2>
+        <p>Drop me a line or two.. I would love to hear from you!</p>
+      </div>
+
+      <div class="col-md-6 wow bounceInUp">
+
+        <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
+
+        <ul class="icon-list">
+          <li><i class="fa fa-fw fa-map-marker"></i>Blessington Rd, Tallaght, Dublin 24, D24 FKT9</li>
+          <li><i class="fa fa-fw fa-phone"></i>(01) 404 2000</li>
+          <li><i class="fa fa-fw fa-envelope-o"></i><a href="mailto:">martinfutas@gmail.com</a></li>
+          <li><i class="fa fa-fw fa-globe"></i><a href="">https://matqo.github.io/</a></li>
+        </ul>
+
+      </div>
+
+      <div class="col-md-6 wow bounceInRight">
+
+        <form id="contact-form" role="form" novalidate>
+
+          <div class="form-group">
+            <label class="sr-only" for="name">Name</label>
+            <input type="text" id="name" class="form-control" name="name" placeholder="Name" required data-validation-required-message="Please enter your name.">
+            <p class="help-block text-danger"></p>
+          </div>
+
+          <div class="form-group">
+            <label class="sr-only" for="email">Email address</label>
+            <input type="email" id="email" class="form-control" name="email" placeholder="E-mail" required data-validation-required-message="Please enter your E-mail.">
+            <p class="help-block text-danger"></p>
+          </div>
+
+          <div class="form-group">
+            <textarea class="form-control" id="message" name="message" rows="7" placeholder="Your message" required data-validation-required-message="Please enter your message."></textarea>
+            <p class="help-block text-danger"></p>
+          </div>
+
+          <button type="submit" class="btn btn-custom-1">
+            <i class="fa fa-bullhorn icon-before"></i> Send it
+          </button>
+
+        </form>
+          <br>
+        <div id="contact-response"></div>
+
+      </div>
+
+    </div><!-- .row -->
+
+  </div><!-- .container -->
+
+</section>
+
+<!-- Contact section end -->
+
+<!-- Footer start -->
+
+<footer id="footer">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12">
+        <p class="copy">
+          © 2016 Martin Futas, All Rights Reserved.
+        </p>
+      </div>
+
+    </div><!-- .row -->
+
+  </div><!-- .container -->
+
+</footer>
+
+</div>
 </body>
 </html>

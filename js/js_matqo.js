@@ -1,14 +1,54 @@
 /**
  * Created by Matqo on 30/11/2016.
  */
+(function($){
+    $(document).ready(function(){
+        $(".secondary-Header .rotate").textrotator({
+            animation: "dissolve",
+            speed: 3000
+        });
 
-$(document).ready(function(){
-    $(".secondary-Header .rotate").textrotator({
-        animation: "dissolve",
-        speed: 3000
+        $('#contact-form').find('input,textarea').jqBootstrapValidation({
+            preventSubmit: true,
+            submitError: function($form, event, errors) {
+                // additional error messages or events
+            },
+            submitSuccess: function($form, event) {
+                event.preventDefault();
+
+                var submit          = $('#contact-form submit');
+                var ajaxResponse    = $('#contact-response');
+                var name            = $('#contact-form [name="name"]').val();
+                var email           = $('#contact-form [name="email"]').val();
+                var message         = $('#contact-form [name="message"]').val();
+
+                $.ajax({
+                    type: 'POST',
+                    url: '../php/contact.php',
+                    dataType: 'json',
+                    data: {
+                        name: name,
+                        email: email,
+                        message: message,
+                    },
+                    cache: false,
+                    beforeSend: function(result) {
+                        submit.empty();
+                        submit.append('<i class="fa fa-cog fa-spin"></i> Wait...');
+                    },
+                    success: function(result) {
+                        if(result.sendstatus == 1) {
+                            ajaxResponse.html(result.message);
+                            $form.fadeOut(500);
+                        } else {
+                            ajaxResponse.html(result.message);
+                        }
+                    }
+                });
+            }
+        });
     });
-
-});
+})(jQuery);
 
 
 
