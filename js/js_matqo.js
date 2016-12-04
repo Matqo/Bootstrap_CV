@@ -8,7 +8,7 @@
             speed: 3000
         });
 
-        $('#contact-form').find('input,textarea').jqBootstrapValidation({
+/*        $('#contact-form').find('input,textarea').jqBootstrapValidation({
             preventSubmit: true,
             submitError: function($form, event, errors) {
                 // additional error messages or events
@@ -46,7 +46,7 @@
                     }
                 });
             }
-        });
+        });*/
     });
 })(jQuery);
 
