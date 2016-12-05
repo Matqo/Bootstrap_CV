@@ -336,3 +336,52 @@ label.valid {
   color: #fff;
   padding: 4px 18px;
 }
+
+.button {
+  float: right;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-family: MyriadProSemibold;
+  font-size: 15px
+}
+
+.button:hover{
+  color: #b94a48
+}
+
+.btn.btn-default {
+  font-family: MyriadProBold;
+  margin: 40px auto 0;
+  background: transparent;
+  position: relative;
+  color: #fff;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  padding: 12px 26px 12px;
+  cursor: pointer;
+  border: 2px solid #4cddf3;
+  border-radius: 0;
+  letter-spacing: 2px;
+  pointer-events: auto;
+  border-color: #fff;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.btn.btn-default:hover, .btn.btn-default:active {
+  background: #333333;
+  border-color: #fff;
+  color: #fff;
+
+}
