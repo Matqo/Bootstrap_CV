@@ -339,6 +339,8 @@ label.valid {
 }
 
 .button {
+  margin-right: 3px;
+  margin-top: 3px;
   float: right;
   background-color: white;
   border-radius: 10px;
@@ -346,11 +348,11 @@ label.valid {
   color: #333333;
   cursor: pointer;
   display: inline-block;
-  padding: 7px 15px;
+  padding: 1px 8px;
   text-align: center;
   text-decoration: none;
   font-family: MyriadProSemibold;
-  font-size: 15px
+  font-size: 18px
 }
 
 .button:hover{
