@@ -87,10 +87,11 @@ $(function(){
 
 $(function(){
     $('#closeButton').on('touchstart click', function(){
-        $('#contact').bPopup().close(/*{
+        $('#contact').bPopup().close({
             easing: 'easeOutBack', //uses jQuery easing plugin
-            speed: 450
-        }*/)
+            speed: 450,
+            transition: 'slideDown'
+        })
 
     });
 });
