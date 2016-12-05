@@ -75,7 +75,7 @@
 })(jQuery);
 
 $(function(){
-    $('#hireButton').click(function(){
+    $('#hireButton','#contactButton').click(function(){
 
         $('#contact').bPopup({
             easing: 'easeOutBack', //uses jQuery easing plugin
