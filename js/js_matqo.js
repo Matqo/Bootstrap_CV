@@ -88,12 +88,7 @@ $(function(){
 $(function(){
     $('#closeButton').click(function(){
 
-        $('#contact').bPopup({
-            easing: 'easeOutBack', //uses jQuery easing plugin
-            speed: 450,
-            transition: 'slideUp',
-            modalClose:true
-        })
+        $('#contact').bPopup().close()
     });
 });
 
