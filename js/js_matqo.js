@@ -90,7 +90,7 @@ $(function(){
         $('#contact').bPopup().close({
             easing: 'easeOutBack', //uses jQuery easing plugin
             speed: 450,
-            transition: 'slideDown'
+
         })
 
     });
