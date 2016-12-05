@@ -95,12 +95,7 @@ $(function(){
 $(function(){
     $('#closeButton').on('touchstart click', function(){
 
-        $('#contact').bPopup({
-
-                        easing: 'easeOutBack', //uses jQuery easing plugin
-            speed: 450,
-            transition: 'slideDown'
-        })
+        $('#contact').bPopup()
     });
 });
 
