@@ -86,16 +86,13 @@ $(function(){
 });
 
 $(function(){
-    $('#closeButton').click(function(){
-
-        $('#contact').bPopup().close()
-    });
-});
-
-$(function(){
     $('#closeButton').on('touchstart click', function(){
+        $('#contact').bPopup().close({
+            easing: 'easeOutBack', //uses jQuery easing plugin
+            speed: 450,
+            transition: 'slideDown'
+        })
 
-        $('#contact').bPopup()
     });
 });
 
