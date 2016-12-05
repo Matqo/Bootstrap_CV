@@ -85,6 +85,18 @@ $(function(){
     });
 });
 
+$(function(){
+    $('#closeButton').click(function(){
+
+        $('#contact').bPopup({
+            easing: 'easeOutBack', //uses jQuery easing plugin
+            speed: 450,
+            transition: 'slideUp',
+            modalClose:true
+        })
+    });
+});
+
 /*function switch1() {
 
         $('#sH1').fadeOut(function () {
