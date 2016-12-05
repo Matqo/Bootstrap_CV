@@ -1,6 +1,8 @@
 /**
  * Created by Matqo on 30/11/2016.
  */
+
+
 (function($){
     $(document).ready(function(){
         $(".secondary-Header .rotate").textrotator({
@@ -8,7 +10,20 @@
             speed: 3000
         });
         $('#contact-form').find('input,textarea').jqBootstrapValidation();
-/*
+
+
+
+            $.srSmoothscroll({
+                // defaults
+                step: 55,
+                speed: 400,
+                ease: 'swing',
+                target: $('body'),
+                container: $(window)
+            })
+
+        /*
+
         $('element_to_pop_up').bPopup({
             easing: 'easeOutBack', //uses jQuery easing plugin
             speed: 450,
