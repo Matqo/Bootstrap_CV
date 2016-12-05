@@ -9,19 +9,18 @@
             animation: "dissolve",
             speed: 3000
         });
-        $.srSmoothscroll({
-            // defaults
-            step: 55,
-            speed: 400,
-            ease: 'swing',
-            target: $('body'),
-            container: $(window)
-        });
         $('#contact-form').find('input,textarea').jqBootstrapValidation();
 
 
 
-
+            $.srSmoothscroll({
+                // defaults
+                step: 55,
+                speed: 400,
+                ease: 'swing',
+                target: $('body'),
+                container: $(window)
+            })
 
         /*
 
