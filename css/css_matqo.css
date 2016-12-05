@@ -264,9 +264,13 @@ body{
 .btn-youtube:hover {
   color: #E62117;
 }
+.btn-gitFooter:hover {
+  color: white;
+}
 
 #contact {
   font-family: MyriadProSemibold;
+  font-size: 12px;
   background: rgba(51, 51, 51, 0.6);
   color: #FFF;
 }
@@ -286,18 +290,19 @@ body{
 #footer {
   font-family: MyriadProSemibold;
   background: #333333;
-  padding: 20px 0;
+  padding: 15px 0;
   color: #FFF;
 }
 
-#footer .copy {
+#footer .copyLeft {
+  float: left;
   font-size: 12px;
   margin: 5px 0;
 }
 
 #footer .copyRight{
-  float:right;
-  margin: 5px 0;
+  float: right;
+
 }
 
 .btn-custom-1 {
