@@ -9,6 +9,7 @@
             animation: "dissolve",
             speed: 3000
         });
+
         $('#contact-form').find('input,textarea').jqBootstrapValidation();
 
 
