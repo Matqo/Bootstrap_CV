@@ -92,6 +92,13 @@ $(function(){
     });
 });
 
+$(function(){
+    $('#closeButton').on('touchstart click', function(){
+
+        $('#contact').bPopup().close()
+    });
+});
+
 /*function switch1() {
 
         $('#sH1').fadeOut(function () {
