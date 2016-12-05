@@ -95,7 +95,10 @@ $(function(){
 $(function(){
     $('#closeButton').on('touchstart click', function(){
 
-        $('#contact').bPopup().close()
+        $('#contact').bPopup({
+
+            
+        })
     });
 });
 
