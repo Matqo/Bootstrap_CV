@@ -12,6 +12,8 @@
   <script src="js/jqBootstrapValidation.js"></script>
   <script src="js/jquery.bpopup.min.js"></script>
   <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
 <!--  <script src="js/jquery.mousewheel.js"></script>-->
 <!--  <script src="js/jquery.simplr.smoothscroll.js"></script>-->
   <!--<script src="js/jquery-3.1.1.js"></script>-->
@@ -21,6 +23,11 @@
   <link rel="stylesheet rotate" href="css/simpletextrotator.css">
   <link rel="stylesheet animate" href="css/animate.css">
   <link rel="stylesheet social" href="css/font-awesome.css">
+  <link href="css/owl.theme.css" rel="stylesheet">
+  <link href="css/owl.carousel.css" rel="stylesheet">
+
+  <!-- Magnific-popup lightbox -->
+  <link href="css/magnific-popup.css" rel="stylesheet">
 
 </head>
 <body>
@@ -80,16 +87,75 @@
       <a id="hireButton" class="btn btn-default hire-me" >Hire Me</a>
     </div>
   </div>
-
-
-
-
 </div>
+<br><br>
+  <div id="page-profile" class="page-profile">
+    <div class="container">
 
-<br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <div class="row">
 
-<section id="contact" class="section" style="display: none;">
+        <div class="col-md-12 headline wow animated bounceInDown">
+          <h2>Martin Futas</h2>
+          <p>Visual Designer. Front/Back-end Developer. C# Programmer.</p>
+        </div>
+
+        <div class="col-md-3 col-sm-6 hidden-xs wow animated bounceInLeft">
+          <img class="avatar" src="img/me.jpg" alt="">
+        </div>
+
+        <div class="col-md-3 col-sm-6 wow animated bounceInUp">
+
+          <div class="profile-widget">
+            <h3>Skillset</h3>
+
+            <h5>UX Design</h5>
+            <div class="skill-bar">
+              <div class="skill-rate-on"></div>
+              <div class="skill-rate-on"></div>
+              <div class="skill-rate-on"></div>
+              <div class="skill-rate-off"></div>
+            </div>
+
+            <h5>HTML / CSS3 / SASS</h5>
+            <div class="skill-bar">
+              <div class="skill-rate-on"></div>
+              <div class="skill-rate-on"></div>
+              <div class="skill-rate-off"></div>
+              <div class="skill-rate-off"></div>
+            </div>
+
+            <h5>Javascript</h5>
+            <div class="skill-bar">
+              <div class="skill-rate-on"></div>
+              <div class="skill-rate-on"></div>
+              <div class="skill-rate-on"></div>
+              <div class="skill-rate-on"></div>
+            </div>
+
+            <h5>Ajax</h5>
+            <div class="skill-bar">
+              <div class="skill-rate-on"></div>
+              <div class="skill-rate-off"></div>
+              <div class="skill-rate-off"></div>
+              <div class="skill-rate-off"></div>
+            </div>
+          </div>
+
+        </div><!-- .col-md-3 -->
+
+        <div class="col-md-6 col-sm-12 wow animated bounceInRight">
+          <h3>Profesional Profile</h3>
+          <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend. I am so happy, my dear friend.</p>
+          <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
+        </div>
+
+      </div><!-- .row -->
+
+    </div><!-- .container -->
+  </div>
+
+
+<div id="contact" class="section" style="display: none;">
   <button id="closeButton" class="button"><span>X</span></button>
   <div class="container">
 
@@ -148,9 +214,73 @@
 
   </div><!-- .container -->
 
-</section>
+</div>
 
 <!-- Contact section end -->
+
+<section id="source" class="section" style="display: none;">
+  <button id="closeSrcButton" class="button"><span>X</span></button>
+  <div class="container">
+    <h2>About Source Code</h2>
+    <p>Source Code Available on:  <a class="fa fa-git" href="https://github.com/Matqo/matqo.github.io"></a></p>
+    <p><i>No templates were used in creating this site</i></p>
+    <h2>Bootstrap features used:</h2>
+    <p><ul>
+
+    <li>
+      Glyphicons (See submit button for Hire me/Contact form)
+    </li>
+    <li>
+      Containers & Rows (See divs, fluid containers used initially however centered design was chosen later)
+    </li>
+    <li>
+      Dropdowns (See Navbar, when screen cannot display natural navbar, dropdown icon displayed)
+    </li>
+    <li>
+      Buttons (See Hire Me button, Send it form button or round buttons for social media icons)
+    </li>
+    <li>
+      Sizing (See col-md of varying sizes for best layout choices)
+    </li>
+    <li>
+      Forms (See Hire me/Contact form)
+    </li>
+    <li>
+      Static (See NavBar which is stuck to top of screen at all times)
+    </li>
+    <li>
+      Media tags (See css_matqo.css where Media tags are used to size fonts appropriately depending on screen size)
+    </li>
+  </ul>
+
+    <h2>JQuery features used:</h2>
+    <ul>
+      <li>
+        JQuery Bootstrap Validation (Used on Bootstrap Hire me/Contact form to validate from any device)
+      </li>
+      <li>
+        JQuery BPopUp (Used on this window and Hire me/Contact form to hide un-necessary information from user)
+      </li>
+      <li>
+        JQuery easing (Used on BPopUp to soften animations)
+      </li>
+      <li>
+        JQuery Simple Text Rotator (Used on hero component to cycle in between "specialisations")
+      </li>
+    </ul>
+
+    <h2>Fonts used:</h2>
+  <ul>
+    <li>
+      Myriad Pro family (Throughout the page)
+    </li>
+    <li>
+      Font Awesome (Social Media icons)
+    </li>
+  </ul>
+  </p>
+  </div>
+</section>
 
 <!-- Footer start -->
 
@@ -164,7 +294,7 @@
 <!--        <div class = "col-md-3 copy">© 2016 Martin Futas, All Rights Reserved.</div>
         <div class = "col-xs-1 copyRight"><a href="https://github.com/Matqo/matqo.github.io" class="btn btn-xs btn-clear btn-git"><i class="fa fa-github"></i></a></div>-->
         <p class="copyLeft">© 2016 Martin Futas, All Rights Reserved.</p>
-        <p class="copyRight"><a href="https://github.com/Matqo/matqo.github.io" class="btn btn-sm btn-gitFooter"><i class="fa fa-github"></i></a></p>
+        <p class="copyRight"><a id="src" class="btn btn-sm btn-gitFooter"><i class="fa fa-github"></i></a></p>
       </div>
 
     </div><!-- .row -->

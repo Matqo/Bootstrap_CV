@@ -91,6 +91,23 @@ $(function(){
     });
 });
 
+
+$(function(){
+    $('#src').click(function(){
+
+        $('#source').bPopup({
+            easing: 'easeOutBack', //uses jQuery easing plugin
+            speed: 450,
+            transition: 'slideUp'
+        })
+    });
+});
+
+$(function(){
+    $('#closeSrcButton').on('touchstart click', function(){
+        $('#source').bPopup().close()
+    });
+});
 /*function switch1() {
 
         $('#sH1').fadeOut(function () {
