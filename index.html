@@ -10,6 +10,8 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="js/js_matqo.js"></script>
   <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/jquery.bpopup.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
   <!--<script src="js/jquery-3.1.1.js"></script>-->
   <script type="text/javascript" src="js/jquery.simple-text-rotator.js"></script>
   <link rel="stylesheet" href="css/bootstrap.css">
@@ -72,6 +74,7 @@
         <a href="https://www.youtube.com/channel/UCwlnQ5gm3IJ2QTK3Tx7ajbA" class="btn btn-round btn-clear btn-youtube"><i class="fa fa-youtube"></i></a>
         </div>
       </div>
+      <a id="hireButton" class="btn btn-default hire-me" >Hire Me</a>
     </div>
   </div>
 
@@ -83,7 +86,7 @@
 <br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-<section id="contact" class="section">
+<section id="contact" class="section" style="display: none;">
 
   <div class="container">
 
@@ -109,22 +112,22 @@
 
       <div class="col-md-6 wow bounceInRight">
 
-        <form id="contact-form" role="form" data-validation-required-message="" action="https://formspree.io/martinfutas@gmail.com" method="post">
+        <form id="contact-form" role="form" novalidate action="https://formspree.io/martinfutas@gmail.com" method="post">
 
           <div class="form-group">
             <label class="sr-only" for="name">Name</label>
-            <input type="text" id="name" class="form-control" name="name" placeholder="Name" required data-validation-required-message="Please enter your name.">
+            <input type="text" id="name" class="form-control" name="name" placeholder="Name" required="">
             <p class="help-block text-danger"></p>
           </div>
 
           <div class="form-group">
             <label class="sr-only" for="email">Email address</label>
-            <input type="email" id="email" class="form-control" name="email" placeholder="E-mail" required data-validation-required-message="Please enter your E-mail.">
+            <input type="email" id="email" class="form-control" name="email" placeholder="E-mail" required="">
             <p class="help-block text-danger"></p>
           </div>
 
           <div class="form-group">
-            <textarea class="form-control" id="message" name="message" rows="7" placeholder="Your message" required data-validation-required-message="Please enter your message."></textarea>
+            <textarea class="form-control" id="message" name="message" rows="7" placeholder="Your message" required=""></textarea>
             <p class="help-block text-danger"></p>
           </div>
 

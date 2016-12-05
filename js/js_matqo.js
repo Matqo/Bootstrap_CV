@@ -7,7 +7,13 @@
             animation: "dissolve",
             speed: 3000
         });
-
+        $('#contact-form').find('input,textarea').jqBootstrapValidation();
+/*
+        $('element_to_pop_up').bPopup({
+            easing: 'easeOutBack', //uses jQuery easing plugin
+            speed: 450,
+            transition: 'slideDown'
+        });*/
 /*        $('#contact-form').find('input,textarea').jqBootstrapValidation({
             preventSubmit: true,
             submitError: function($form, event, errors) {
@@ -50,7 +56,16 @@
     });
 })(jQuery);
 
+$(function(){
+    $('#hireButton').click(function(){
 
+        $('#contact').bPopup({
+            easing: 'easeOutBack', //uses jQuery easing plugin
+            speed: 450,
+            transition: 'slideDown'
+        })
+    });
+});
 
 /*function switch1() {
 
