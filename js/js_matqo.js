@@ -13,6 +13,7 @@
 
 
 
+/*
             $.srSmoothscroll({
                 // defaults
                 step: 55,
@@ -21,6 +22,7 @@
                 target: $('body'),
                 container: $(window)
             })
+*/
 
         /*
 
