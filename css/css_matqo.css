@@ -170,13 +170,14 @@ body{
   width: 100%;
 }
 .navbar-default {
-  background: rgba(51, 51, 51, 0.6);
+  background: none;
   border: none;
-  color: #777;
+  color: white;
   text-transform: uppercase;
   display: inline-block;
   text-align: center;
   position: fixed;
+  padding: 20px 0;
 }
 .navbar-nav {
   margin: 0 auto;
@@ -197,6 +198,21 @@ body{
   background: none;
 }
 
+.navbar-color,
+.custom-collapse {
+  background: rgba(51, 51, 51, 0.6);
+  box-shadow: 0 0 4px rgba(0, 0, 0, .2);
+  padding: 0;
+}
+
+.navbar {
+  -webkit-transition: all 0.125s ease-in-out 0s;
+  -moz-transition: all 0.125s ease-in-out 0s;
+  -ms-transition: all 0.125s ease-in-out 0s;
+  -o-transition: all 0.125s ease-in-out 0s;
+  transition: all 0.125s ease-in-out 0s;
+}
+
 .mouse-icon {
   position: relative;
   border: 2px solid #fff;
@@ -207,7 +223,6 @@ body{
   display: block;
   z-index: 10;
   margin-bottom: 20px;
-
 }
 
 .mouse-icon .wheel {
