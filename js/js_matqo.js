@@ -48,16 +48,30 @@
             }
         });
 
-/*
-            $.srSmoothscroll({
-                // defaults
-                step: 55,
-                speed: 400,
-                ease: 'swing',
-                target: $('body'),
-                container: $(window)
-            })
-*/
+        if($(window).width() <= 767) {
+            navbar.addClass('custom-collapse');
+        }
+
+        $(window).resize(function() {
+            if($(this).width() <= 767) {
+                navbar.addClass('custom-collapse');
+            }
+            else {
+                navbar.removeClass('custom-collapse');
+            }
+        });
+
+
+        /*
+                    $.srSmoothscroll({
+                        // defaults
+                        step: 55,
+                        speed: 400,
+                        ease: 'swing',
+                        target: $('body'),
+                        container: $(window)
+                    })
+        */
 
         /*
 
