@@ -189,6 +189,7 @@ body{
 
   font-size: 1em;
   font-weight: bold;
+  color:white;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
   background-color: transparent;
@@ -196,6 +197,7 @@ body{
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
   background: none;
+  color: white;
 }
 
 .navbar-color,
