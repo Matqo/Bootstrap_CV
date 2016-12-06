@@ -10,10 +10,31 @@
             speed: 3000
         });
 
+
         $('#contact-form').find('input,textarea').jqBootstrapValidation();
 
 
+        wow = new WOW({
+            mobile: false
+        });
+        wow.init();
 
+
+        $('#main-menu').onePageNav({
+            currentClass: "active",
+            changeHash: false,
+            scrollThreshold: 0.5,
+            scrollSpeed: 750,
+            filter: "",
+            easing: "swing"
+        });
+
+        $('.mouse-icon').click(function() {
+            $('html, body').animate({
+                scrollTop: $('#page-profile').offset().top
+            }, 500);
+            return false;
+        });
 /*
             $.srSmoothscroll({
                 // defaults
