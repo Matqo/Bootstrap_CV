@@ -5,7 +5,7 @@
 
 (function($){
     $(document).ready(function(){
-        $(".secondary-Header .rotate").textrotator({
+        $(".main-secondary-Header .rotate").textrotator({
             animation: "dissolve",
             speed: 3000
         });

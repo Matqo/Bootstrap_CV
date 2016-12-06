@@ -117,6 +117,17 @@ body{
 
 
 .secondary-Header{
+   font-family: MyriadProThin;
+   color: white;
+   font-weight: bold;
+   line-height: 26px;
+   font-size: 35px;
+   margin-left: auto;
+   margin-right: auto;
+   float: none;
+ }
+
+.main-secondary-Header{
   font-family: MyriadProThin;
   color: white;
   font-weight: bold;
@@ -125,6 +136,8 @@ body{
   margin-left: auto;
   margin-right: auto;
   float: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 @media all and (max-width: 1200px) { /* screen size until 1200px */
@@ -163,8 +176,6 @@ body{
     font-size: 20px;
   }
 }
-
-
 
 .navbar {
   width: 100%;
@@ -228,7 +239,8 @@ body{
   margin: 0 auto;
   display: block;
   z-index: 10;
-  margin-bottom: 20px;
+  margin-top: 180px;
+  margin-bottom: 200px;
 }
 
 .mouse-icon .wheel {
