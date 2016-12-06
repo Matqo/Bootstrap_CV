@@ -29,12 +29,12 @@
             easing: "swing"
         });
 
-/*        $('.mouse-icon').click(function() {
+        $('.mouse-icon').click(function() {
             $('html, body').animate({
                 scrollTop: $('#page-profile').offset().top
             }, 500);
             return false;
-        });*/
+        });
 /*
             $.srSmoothscroll({
                 // defaults
