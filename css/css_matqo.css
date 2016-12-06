@@ -59,7 +59,7 @@ img {
 }
 
 body{
-  background: url('../img/tatry.png') no-repeat center center fixed;
+  background: url('../img/tatry.png') no-repeat center center fixed !important;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
