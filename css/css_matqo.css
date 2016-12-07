@@ -296,7 +296,7 @@ body{
 #page-profile {
   font-family: MyriadProSemibold;
   padding: 75px 0;
-  background: rgba(51, 51, 51, 0.6);
+  background: rgba(51, 51, 51, 1);
 }
 #page-profile .profile {
   border: 5px solid #333;
@@ -320,6 +320,112 @@ body{
   display: table-cell;
   border-left: 2px solid rgba(51, 51, 51, 0.6);
   border-right: 2px solid rgba(51, 51, 51, 0.6);
+}
+
+#resume{
+  font-family: MyriadProSemibold;
+ background: rgba(255, 255, 255, 1);
+color: black;
+}
+
+.resume-items {
+  margin-bottom: 40px;
+}
+
+.resume-place {
+  margin-bottom: 20px;
+}
+
+.resume-place > i,
+.resume-place > h4 > i {
+  color: #C4C4C4;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.mfp-title{
+  font-family: MyriadProSemibold ;
+  font-size: 20px;
+}
+#portfolio{
+  background:grey;
+}
+
+#grid-controls-wrapper {
+  text-align: center;
+  float: none;
+  width: 100%;
+}
+.center-pills {
+  display: inline-block;
+}
+#grid .mix {
+  width: 200px;
+  height: 150px;
+  vertical-align: top;
+  margin: 20px 20px 20px 0;
+  color: #fff;
+  text-align: center;
+}
+#grid .mix .thumbnail {
+  border: 2px thin #F7F7F7;
+  padding: 0;
+  border-radius: 0;
+}
+#grid .mix .overlay {
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  opacity: 0;
+  top:0;
+}
+#grid .mix .overlay:hover {
+  opacity: .8;
+}
+#grid .mix .overlay i {
+  font-size: 2em;
+  opacity: 1;
+  color: #fff;
+  padding-top: 30%;
+}
+.isotope-item {
+  z-index: 2;
+}
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+.isotope, .isotope .isotope-item {
+  /* change duration value to whatever you like */
+
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -ms-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+.isotope {
+  -webkit-transition-property: height, width;
+  -moz-transition-property: height, width;
+  -ms-transition-property: height, width;
+  -o-transition-property: height, width;
+  transition-property: height, width;
+}
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property: -moz-transform, opacity;
+  -ms-transition-property: -ms-transform, opacity;
+  -o-transition-property: -o-transform, opacity;
+  transition-property: transform, opacity;
+}
+/**** disabling Isotope CSS3 transitions ****/
+
+.isotope.no-transition, .isotope.no-transition .isotope-item, .isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+  -moz-transition-duration: 0s;
+  -ms-transition-duration: 0s;
+  -o-transition-duration: 0s;
+  transition-duration: 0s;
 }
 
 .social-icons .btn {
