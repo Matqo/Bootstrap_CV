@@ -364,11 +364,25 @@ color: black;
   height: 150px;
   vertical-align: top;
   margin: 20px 20px 20px 0;
-  color: #fff;
+  color: grey;
   text-align: center;
 }
+
+.spacer,.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus,#grid .mix .overlay
+{
+ color: White;
+  background: #333;
+}
+
+a:link,a:visited,.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus,a:hover,a:active,.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus{
+  color: black;
+}
+
 #grid .mix .thumbnail {
-  border: 2px thin #F7F7F7;
+  border: 2px #F7F7F7;
   padding: 0;
   border-radius: 0;
 }
