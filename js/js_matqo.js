@@ -70,7 +70,7 @@
 
         /* portfolio mixitup */
 
-        $(window).on('load', function() {
+        $(window).imagesLoaded(function() {
             var $container = $('.grid-wrapper');
             $container.isotope({
                 filter: '*',
