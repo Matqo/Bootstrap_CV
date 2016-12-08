@@ -295,14 +295,14 @@ body{
 }
 #page-profile {
   font-family: MyriadProSemibold;
-  padding: 5em;
+  padding: 75px 0;
   background: rgba(51, 51, 51, 1);
 }
 #page-profile .profile {
   border: 5px solid #333;
   width: 225px;
   height: 225px;
-  margin: 0 0px 0px 0;
+  margin: 0 20px 20px 0;
 }
 .skill-bar {
   background: grey;
@@ -323,7 +323,6 @@ body{
 }
 
 #resume{
-  padding: 5em;
   font-family: MyriadProSemibold;
  background: rgba(255, 255, 255, 1);
 color: black;
