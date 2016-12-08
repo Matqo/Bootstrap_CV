@@ -141,7 +141,7 @@ body{
 
 @media all and (max-width: 1200px) { /* screen size until 1200px */
   body {
-    font-size: 2em; /* 1.5x default size */
+    font-size: 1.5em; /* 1.5x default size */
   }
   .main-Header{
     font-size: 80px;
@@ -151,6 +151,9 @@ body{
     font-size: 40px;
   }
   .intro{
+    width:100%;
+  }
+  .portfolio{
     width:100%;
   }
 }
@@ -166,6 +169,9 @@ body{
     font-size: 25px;
   }
   .intro{
+    width:100%;
+  }
+  .portfolio{
     width:100%;
   }
 
