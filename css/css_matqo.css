@@ -284,6 +284,7 @@ body{
 .intro{
   width: 100%;
   height: 100vh!important;
+  max-width: 100%;
   position: relative;
   overflow: hidden;
   text-align: center;
@@ -294,7 +295,6 @@ body{
   padding-top: 17%;
 }
 #page-profile {
-  vertical-align: top;
   font-family: MyriadProSemibold;
   padding: 5em;
   background: rgba(51, 51, 51, 1);
