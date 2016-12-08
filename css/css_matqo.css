@@ -348,8 +348,8 @@ color: black;
   font-size: 20px;
 }
 #portfolio{
+  font-family: MyriadProSemibold ;
   background:grey;
-  height: 330px;
 }
 
 #grid-controls-wrapper {
