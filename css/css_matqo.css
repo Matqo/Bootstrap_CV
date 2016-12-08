@@ -142,7 +142,7 @@ body{
 
 @media all and (max-width: 1200px) { /* screen size until 1200px */
   body {
-    font-size: 1.5em; /* 1.5x default size */
+    font-size: 1em; /* 1.5x default size */
   }
   .main-Header{
     font-size: 80px;
@@ -160,7 +160,7 @@ body{
 }
 @media all and (max-width: 1000px) { /* screen size until 1000px */
   body {
-    font-size: 1.7em; /* 1.2x default size */
+    font-size: 0.7em; /* 1.2x default size */
   }
   .main-Header{
     font-size: 50px;
@@ -179,7 +179,7 @@ body{
 }
 @media all and (max-width: 500px) { /* screen size until 500px */
   body {
-    font-size: 1.5em; /* 0.8x default size */
+    font-size: 0.5em; /* 0.8x default size */
   }
   .main-Header{
     font-size: 40px;
