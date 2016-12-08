@@ -66,7 +66,7 @@ body:before {
   position: fixed;
   left: 0;
   top: 0;
-  width: 100vh;
+  width: 100%;
   height: 100%;
   z-index: -10;
   background: url('../img/tatry.png') no-repeat center center;
@@ -282,8 +282,8 @@ body{
 }
 
 .intro{
-  width: 100vh;
-  height: 100vh;
+  width: 100%;
+  height: 100vh!important;
   position: relative;
   overflow: hidden;
   text-align: center;
@@ -294,6 +294,7 @@ body{
   padding-top: 17%;
 }
 #page-profile {
+  vertical-align: top;
   font-family: MyriadProSemibold;
   padding: 5em;
   background: rgba(51, 51, 51, 1);
