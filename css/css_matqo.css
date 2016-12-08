@@ -66,7 +66,7 @@ body:before {
   position: fixed;
   left: 0;
   top: 0;
-  width: 100%;
+  width: 100vh;
   height: 100%;
   z-index: -10;
   background: url('../img/tatry.png') no-repeat center center;
@@ -282,7 +282,7 @@ body{
 }
 
 .intro{
-  width: 100%;
+  width: 100vh;
   height: 100vh;
   position: relative;
   overflow: hidden;
