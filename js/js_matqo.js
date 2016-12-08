@@ -69,8 +69,7 @@
         })
 
         /* portfolio mixitup */
-
-        $(window).imagesLoaded(function() {
+        $(window).load(function() {
             var $container = $('.grid-wrapper');
             $container.isotope({
                 filter: '*',
