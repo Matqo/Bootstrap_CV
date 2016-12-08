@@ -283,7 +283,7 @@ body{
 
 .intro{
   width: 100%;
-  height: 100%!important;
+  height: 100vh;
   position: relative;
   overflow: hidden;
   text-align: center;
@@ -323,6 +323,7 @@ body{
 }
 
 #resume{
+  padding: 5em;
   font-family: MyriadProSemibold;
  background: rgba(255, 255, 255, 1);
 color: black;
