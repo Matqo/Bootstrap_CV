@@ -107,6 +107,13 @@
             }
         });
 
+        var bg = jQuery("body");
+        jQuery(window).resize("resizeBackground");
+        function resizeBackground() {
+            bg.height(jQuery(window).height());
+        }
+        resizeBackground();
+
 
         /*
          $.srSmoothscroll({
